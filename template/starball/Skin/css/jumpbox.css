@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+.live-chat{ width: 460px; background: #fff; /*border:1px solid #515151;*/ z-index: 99999; /*display:none;*/}
+.live-chat h2{ height: 34px; line-height: 34px; font-size: 16px; font-weight: normal; letter-spacing: 1px; color: #fff; background-color: rgb(24, 26, 28); margin: 0; padding-left: 10px; }
+.live-chat h2 i{ font-size: 20px; float: left; margin-right: 15px; }
+.live-chat .min{ display: block; position:absolute;top:0px;right:50px;}
+.live-chat .min:before{ font-family: fontello; content: '\e849'; font-size: 20px; }
+.live-chat .close{display: block; position:absolute;top:0px;right:15px;}
+.live-chat .close:before{ font-family: fontello; content: '\e842'; font-size: 22px; }
+.live-chat .max{display: block; position:absolute;top:0px;right:50px;}
+.live-chat .max:before{ font-family: fontello; content: '\e8cd'; font-size: 22px; }
+.content{ width: 100%;}
